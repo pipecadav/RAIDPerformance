@@ -13,8 +13,6 @@ This project evaluates the performance, data redundancy, and rebuild times of di
 - [Workload Generation](#workload-generation)
 - [Performance Measurement](#performance-measurement)
 - [Data Redundancy Testing](#data-redundancy-testing)
-- [Results and Analysis](#results-and-analysis)
-- [Conclusion](#conclusion)
 
 ## Prerequisites
 
