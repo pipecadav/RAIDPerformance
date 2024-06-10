@@ -1,0 +1,13 @@
+# Ignore disk images
+/mnt/raid0-disk1.img
+/mnt/raid0-disk2.img
+/mnt/raid1-disk1.img
+/mnt/raid1-disk2.img
+/mnt/raid5-disk1.img
+/mnt/raid5-disk2.img
+/mnt/raid5-disk3.img
+
+# Ignore benchmark results
+/raid0_result.txt
+/raid1_result.txt
+/raid5_result.txt
