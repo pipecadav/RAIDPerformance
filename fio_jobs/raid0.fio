@@ -1,0 +1,17 @@
+[global]
+ioengine=libaio
+bs=4k
+size=250M
+direct=1
+runtime=60
+time_based
+numjobs=4
+group_reporting
+
+[read]
+rw=randread
+filename=/mnt/raid0/testfile
+
+[write]
+rw=randwrite
+filename=/mnt/raid0/testfile
