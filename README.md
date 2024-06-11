@@ -171,10 +171,12 @@ sudo fio raid5.fio > raid5_result.txt
 
 Extract key performance metrics from the `fio` results and compile them into a table for comparison.
 
-|RAID Level	|Read IOPS	|Write IOPS	|Read Throughput (MB/s)	|Write Throughput (MB/s)|
-|RAID 0	|82.9k	|81.0k	|340 MB/s	|332 MB/s|
-|RAID 1	|62.1k	|43.7k	|254 MB/s	|179 MB/s|
-|RAID 5	|95.1k	|26.4k	|389 MB/s	|108 MB/s|
+```sh
+# Run fio benchmarks
+cat raid0_result.txt | grep -E 'read:|write:'
+cat raid1_result.txt | grep -E 'read:|write:'
+cat raid5_result.txt | grep -E 'read:|write:'
+```
 
 
 ## Data Redundancy Testing
